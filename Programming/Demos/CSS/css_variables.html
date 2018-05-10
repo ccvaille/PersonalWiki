@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css_variables(20180510)</title>
+    <style>
+        :root {
+            --root-color: pink;
+            --font-size: 16px;
+        }
+
+        a {
+            color: var(--root-color);
+            font-size: var(--font-size, 12px);
+        }
+    </style>
+    
+</head>
+
+<body>
+    <a href="http://www.coolfe.com" id="coolfe">coolfe</a>
+    <script>
+        document.getElementById('coolfe').style.setProperty('--font-size', '20px');
+        // document.getElementById('coolfe').style.removeProperty('--root-color');
+        console.log(document.getElementById('coolfe').style.getPropertyValue('--font-size').trim());
+    </script>
+</body>
+
+</html>
