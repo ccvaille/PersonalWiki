@@ -75,6 +75,19 @@ a {
 - 父 flex, justify-content: center, align-items: center,[ DEMO](./demos/css/vertical-box5.html)
 - 父 table-cell, vertical-align: middle, text-align: center, 子 display： inline-block[ DEMO](./demos/css/vertical-box6.html)
 
+## 响应式页面开发[ Responsive Web Design Basic](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
+- 添加 viewport meta 标签(优化在移动设备上的展示效果)
+```html
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+- Media Queries(为不同特性的浏览器视窗使用不同的样式代码)
+```css
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    ...
+}
+```
+- 使用 Viewport 单位及 rem(让页面元素的尺寸能够依据浏览器视窗尺寸变化而平滑变化)
+
 ## CSS Frameworks
 - Bootstrap	1,768	34.69%
 - Foundation	199	3.90%
