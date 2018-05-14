@@ -180,10 +180,39 @@ body {
 ```
 - `<meta name="viewport" content="width=device-width,initial-sacle=0.5">`
 ## 对动画了解多少
+- animation
+    - animation: name duration timing-function delay iteration-count direction
+    - animation-teration-count
+        - infinite
+    - animation-timing-function
+        - linear
+        - ease
+        - ease-in
+        - ease-out
+        - ease-in-out
+        - 贝塞尔函数
+- transition
+- canvas
+- svg
+    - https://75team.com/post/svg-animation-in-action.html
+## transform
+- translate(x,y)
+- translate3d(x,y,z)
+- scale(x,y)
+- scale3d(x,y,z)
+- rotate(angle)
+- rotate3d(angle)
+- skew(x-angle,y-angle)
+- perspective(n)
+
+## 多列等高
+- [flex_demo](../Demos/css/equalHeight3.html)
+- [table_cell_demo](../Demos/css/equalHeight2.html)
+- [负 margin_demo](../Demos/css/equalHeight.html)
 ## CSS实现宽度自适应100%，宽高16:9的比例的矩形
-- clac
-- vw
-- grid
+- [calc_demo](../Demos/css/16:9_calc.html)
+- [vw_demo](../Demos/css/16:9_vw.html)
+- [grid_demo](../Demos/css/16:9_grid.html)
 ## CSS Frameworks
 - Bootstrap	1,768	34.69%
 - Foundation	199	3.90%

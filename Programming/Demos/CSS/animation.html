@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>animation(20180514)</title>
+    <style>
+        @keyframes blink {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .ani {
+            animation: blink 1s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- animation: name duration timing-function delay ßßiteration-count direction; -->
+    <div class="ani">hello world!</div>
+</body>
+
+</html>
