@@ -179,6 +179,11 @@ body {
 }
 ```
 - `<meta name="viewport" content="width=device-width,initial-sacle=0.5">`
+## 对动画了解多少
+## CSS实现宽度自适应100%，宽高16:9的比例的矩形
+- clac
+- vw
+- grid
 ## CSS Frameworks
 - Bootstrap	1,768	34.69%
 - Foundation	199	3.90%

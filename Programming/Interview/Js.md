@@ -1,13 +1,30 @@
 ## cookie && session
 
-## tpc
+## tpc/UDP/Ips
+
+## 链表和数组
+
+## 常见排序
 
 ## ssr
 
 ## 闭包
+
+## this
+
+## HTTPS && HTTP
+
 ## 定时器
 
+## 多线程
+
+## 浏览器渲染
+
+## 跨域
+
 ## Redux 的 原理
+
+## React 生命周期
 
 ## ES6 了解多少
 
