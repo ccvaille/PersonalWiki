@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>skew(20180515)</title>
+    <style>
+        .skew {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 500px;
+            height: 500px;
+            background: red;
+            opacity: .5;
+            border: 3px dashed #000;
+            z-index: 2;
+        }
+
+        .skewx {
+            transform: skewX(10deg);
+            background: green;
+            border: 2px dashed pink;
+            z-index: 1;
+        }
+
+        .skewy {
+            transform: skewY(10deg);
+            background: yellow;
+            border: 2px dashed red;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="skew"></div>
+        <div class="skew skewx"></div>
+        <div class="skew skewy"></div>
+    </div>
+</body>
+
+</html>

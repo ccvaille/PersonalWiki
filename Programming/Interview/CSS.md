@@ -191,6 +191,7 @@ body {
         - ease-out
         - ease-in-out
         - 贝塞尔函数
+    - [demo](../Demos/css/animation.html)
 - transition
 - canvas
 - svg
@@ -203,6 +204,8 @@ body {
 - rotate(angle)
 - rotate3d(angle)
 - skew(x-angle,y-angle)
+    - https://oreillymedia.github.io/svg-essentials-examples/ch06/skew.html
+    - [demo](../Demos/css/skew.html)
 - perspective(n)
 
 ## 多列等高

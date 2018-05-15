@@ -32,6 +32,10 @@
 
 ## JS 执行机制
 > 事件循环(Event Loop)是 js 实现异步的一种方法，也是 js 的执行机制。
+- macro-task(宏任务)：包括整体代码script，setTimeout，setInterval
+- micro-task(微任务)：Promise，process.nextTick
+- 事件循环的顺序，决定js代码的执行顺序。进入整体代码(宏任务)后，开始第一次循环。接着执行所有的微任务。然后再次从宏任务开始，找到其中一个任务队列执行完毕，再执行所有的微任务
+- 首先判断是同步任务还是异步任务，同步任务直接进入主线程，异步任务会先进入 Event Table 并注册回调函数，回调函数执行好了，回调函数会进入 Event Queue 里面，然后 事件循坏会一直循坏判断 Stack 是否为空，为空的话 Event Queue 里面的函数会依次到 Stack 执行
 ```js
 console.log('1');
 
