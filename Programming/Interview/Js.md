@@ -150,7 +150,7 @@ for(var i = 0; i< 5; i++) {
 - props
 - 
 
-## ES6 了解多少
+## ES6 新特性
 - import export
 - let const
 - 箭头函数
@@ -386,6 +386,17 @@ alert(obj.a.b);//10
     - `const HtmlWebpackPlugin = require('html-webpack-plugin');`
     - `plugins: [ new webpack.optimize.UglifyJsPlugin(),]`
 
+## 如何做异步处理
+
+## 前端项目中你遇到了什么有挑战性的工作
+
+## 事件冒泡
+
+## 如何阻止时间冒泡
+
+## 单页面刷新之前的数据如何存储
+
+## 怎么处理路由(router)，怎么管理状态(flux)
 ## 离线包设计(!)
 
 ## js报错监控(!)
