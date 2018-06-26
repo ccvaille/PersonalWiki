@@ -186,7 +186,7 @@ const promise = new Promise(function(resolve, reject) {
     - 根据 CSS 生成 CSSOM
     - 将 DOM 和 CSSOM 整合形成 RenderTree
     - 根据 RenderTree 开始渲染和展示
-    - 遇到<script>时，会执行并阻塞渲染
+    - 遇到 `<script>` 时，会执行并阻塞渲染
 
 ## CSRF
 - 跨站请求伪造
@@ -403,3 +403,27 @@ alert(obj.a.b);//10
 
 ### 参考链接
 - https://juejin.im/post/5af3cc4af265da0ba3521028
+
+
+## 引用类型
+> ECMAScript中的所有参数传递的都是值，不可能通过引用传递参数。
+- 对于基本数据类型（Number，Bool，String，null，undefined，Symbol）直接复制参数的值。函数内部对参数的修改都不会影响到实参的值
+```js
+function swap(x, y){
+  var temp = x;
+  x = y;
+  y = temp;  
+}
+
+var a = 1
+var b = 2
+swap(a, b)
+console.log(a) //输出什么
+console.log(b) //输出什么
+
+var obj1 = {name: 'coolfe'}
+var obj2 = {age: 2}
+swap(obj1, obj2)
+console.log(obj1)  //输出什么
+console.log(obj2)  //输出什么
+```
