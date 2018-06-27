@@ -1,5 +1,7 @@
 - 每天写代码以前，先 `PULL` 再开发
 - 提交控制工具依赖 [commitizen](https://github.com/commitizen/cz-cli)
+    - 安装
+        - 使用 Commitizen for project maintainers 配置项
     - `git cz` 提交
     ```
     feat：新功能（feature）
