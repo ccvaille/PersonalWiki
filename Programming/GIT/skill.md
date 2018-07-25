@@ -21,3 +21,4 @@
 - 分支提交次数小的时候，快速合并用 `cherry-pick`
     - [切换分支]提交修改的东西，`git log` 可以拿到提交记录
     - 切到 [master] `git cherry-pick xxx` 即可
+- 查看日志的时候可以用 `git log --graph` 查看分支合并图
